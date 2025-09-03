@@ -5,11 +5,47 @@ p{
     color: white ;
     background-color: brown;
 } */
-#home{
+/* #home{
     background-color: aqua;
 }
 .footer{
 background-color: black;
 color: white;
 font-family:fantasy;
+} */
+
+div~p{
+    background-color: antiquewhite;
+    color: brown;
+}
+/* p:hover{
+    size: 50rem;
+    background-color: blueviolet;
+
+} */
+
+p::after{
+    content: "ABES Engineering COllege";
+    background-color: burlywood;
+    color: white;
+}
+
+p::before{
+    content: "This is the Text";
+    background-color:deeppink;
+    color: white;
+}
+
+p::selection{
+    color: blueviolet;
+}
+
+/* p:nth-child(2){
+    background: chartreuse;
+    color: darkgoldenrod;
+} */
+
+p:nth-of-type(1){
+     background-color: gold;
+    color:hotpink;
 }
