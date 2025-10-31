@@ -13,7 +13,7 @@ function App() {
       <div className="container">
         <h2>Welcome To React</h2>
         <h3 style={{ backgroundColor: 'cyan', color: 'red' }}>
-          {/* <Gallery /> */}
+          <Gallery />
           <StateHandling/>
         </h3>
       </div>

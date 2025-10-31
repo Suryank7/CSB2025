@@ -4,7 +4,7 @@ import "./Gallery.css";
 function Gallery() {
   const student = [
     {
-      pic: "https://www.freepik.com/free-vector/man-profile-account-picture_137411837.htm#fromView=keyword&page=1&position=0&uuid=de006e8d-32bf-41fb-8f9a-dbbb124771aa&query=Profile+illustration",
+      pic: "https://img.freepik.com/free-vector/man-profile-cartoon_18591-58479.jpg",
       myName: "Rahul",
       branch: "CS",
       section: "B",
